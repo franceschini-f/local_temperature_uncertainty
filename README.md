@@ -1,6 +1,6 @@
 # Local Temperature Uncertainty Indexes
 
-This repository contains R scripts to form the indexes for a set of **custom financial indexes** created using publicly available market data. These indexes are designed to capture key market features and are made freely available for public and academic use.
+This repository contains R scripts to form the indexes of local temperature uncertainty studied in Cavaliere et al. (2025). or a set of **custom financial indexes** created using publicly available market data. These indexes are designed to capture key market features and are made freely available for public and academic use.
 
 ---
 
