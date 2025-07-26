@@ -1,6 +1,6 @@
-# Local Temperature Uncertainty Indexes
+# Local Temperature Uncertainty Indices
 
-This repository accompanies the Technical Report "Local Physical Climate Uncertainty" by Giuseppe Cavaliere, Luca Fanelli and Fabio Franceschini. It contains R scripts to form the indexes of local temperature uncertainty therein studied. These indexes are designed to measure temperature uncertainty at monthly horizons and high spatial resolution, and are freely available for academic and public use.
+This repository accompanies the Technical Report "Local Indices of Physical Climate Uncertainty" by Giuseppe Cavaliere, Luca Fanelli and Fabio Franceschini. It contains the R scripts needed to form the indexes of local temperature uncertainty therein studied. These indices are designed to measure temperature uncertainty at monthly horizons and high spatial resolution, and are freely available for academic and public use.
 
 ---
 
@@ -19,9 +19,6 @@ local_temperature_uncertainty/
 └── .git/           # Git repository files
 ```
 
-The indexes reflect [brief description here, e.g., "aggregate liquidity measures across sectors", "volatility adjusted for trading volume", etc.].
-
-The methodology is based on [optionally cite a reference, your own method, or keep it general].
 
 ---
 
@@ -46,7 +43,6 @@ git clone https://github.com/franceschini-f/local_temperature_uncertainty.git
 cd local_temperature_uncertainty
 ```
 
-
 2. Open the folder in RStudio or VS Code with the R extension enabled.
 
 3. Run the script `compute_index.R` (or whichever script is your main entry point) to generate the index:
@@ -62,7 +58,7 @@ cd local_temperature_uncertainty
 
 Please cite the associated working paper:
 
-> Cavaliere, Giuseppe, Luca Fanelli and Fabio Franceschini (2025). *Local Temperature Uncertainty*. Working Paper. <!-- [Link to paper if available] -->
+> Cavaliere, Giuseppe, Luca Fanelli and Fabio Franceschini (2025). *Local Indices of Physical Climate Uncertainty*. Working Paper. <!-- [Link to paper if available] -->
 
 
 
