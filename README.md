@@ -1,6 +1,6 @@
 # Local Temperature Uncertainty Indexes
 
-This repository contains R scripts to form the indexes of local temperature uncertainty studied in Cavaliere et al. (2025). or a set of **custom financial indexes** created using publicly available market data. These indexes are designed to capture key market features and are made freely available for public and academic use.
+This repository accompanies the Technical Report "Local Physical Climate Uncertainty" by Giuseppe Cavaliere, Luca Fanelli and Fabio Franceschini. It contains R scripts to form the indexes of local temperature uncertainty therein studied. These indexes are designed to measure temperature uncertainty at monthly horizons and high spatial resolution, and are freely available for academic and public use.
 
 ---
 
@@ -8,11 +8,16 @@ This repository contains R scripts to form the indexes of local temperature unce
 
 This project includes:
 
-- `0-data_intake.R`: An R script to calculate the indexes from raw data
-- `1-data_filtering.R`: An R script to calculate the indexes from raw data
-- `2-temp_pred.R`: An R script to calculate the indexes from raw data
-- `3-unc_indexes_form.R`: An R script to calculate the indexes from raw data
-- `main.Rmd`: A short R Markdown file showing how to load and explore the data
+```
+local_temperature_uncertainty/
+├── DATA/           # Raw data storage and processed datasets
+├── functions/      # R functions and utilities
+├── int_prods/      # Intermediate products and calculations
+├── PLOTS/          # Generated plots and visualizations
+├── TABLES/         # Output tables and results
+├── README.md       # This documentation
+└── .git/           # Git repository files
+```
 
 The indexes reflect [brief description here, e.g., "aggregate liquidity measures across sectors", "volatility adjusted for trading volume", etc.].
 
@@ -37,8 +42,8 @@ The methodology is based on [optionally cite a reference, your own method, or ke
 1. **Clone the repo or download it**:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/custom-indexes.git
-cd custom-indexes
+git clone https://github.com/franceschini-f/local_temperature_uncertainty.git
+cd local_temperature_uncertainty
 ```
 
 
